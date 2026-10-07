@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "SiteSync",
+    "slug": "sitesync",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "dev.sitesync.app" },
+    "android": { "package": "dev.sitesync.app" },
+    "plugins": [
+      ["expo-image-picker", { "cameraPermission": "SiteSync needs the camera to attach inspection photos." }]
+    ],
+    "extra": { "apiUrl": "http://10.0.2.2:8000" }
+  }
+}
